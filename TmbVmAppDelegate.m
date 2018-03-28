@@ -12,6 +12,8 @@
         [[InsertManager sharedManager] initWithUrl:url];
         return YES;
     }
+	else
+		return FALSE;
     return YES;
 }
 
